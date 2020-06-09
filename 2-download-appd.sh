@@ -11,6 +11,6 @@ URL=$3
 access_token=`curl -s -X POST -d "{\"username\": \"$USERNAME\",\"password\": \"$PASSWORD\",\"scopes\": [\"download\"]}" https://identity.msrv.saas.appdynamics.com/v2.0/oauth/token | jq -r .access_token`
 
 echo "\naccess_token:\n$access_token"
-echo "\ndownload URL:\n$URL"
+echo "\ndownload URL:\n$URL\n"
 
 curl -L -O -H "Authorization: Bearer $access_token " $URL

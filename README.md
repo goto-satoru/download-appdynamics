@@ -4,5 +4,5 @@ https://docs.appdynamics.com/display/PRO45/Download+AppDynamics+Software
 
 ## Prerequisites
 
-- curl
-- [https://stedolan.github.io/jq/](jq)
+- [curl](https://curl.haxx.se/)
+- [jq](https://stedolan.github.io/jq/)

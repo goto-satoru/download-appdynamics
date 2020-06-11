@@ -1,17 +1,22 @@
 apiVersion: v1
 data:
   APPD_DIR: /appdynamics
-  APPD_ES_HOST: ""
+  APPD_ES_HOST: "technicalonboarding1-2-rhdfu20f.appd-sales.com"
   APPD_ES_PORT: "9080"
-  APPD_ES_SSL: "false"
+  APPD_ES_SSL: "False"
   APPD_EVENT_ACCOUNT_NAME: "customer1_288a59fa-a4e4-45af-8708-e6368f287475"
-  APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: "technicalonboarding1-2-6hxocrqh.appd-sales.com"
+  APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY: ""
   APPDYNAMICS_AGENT_ACCOUNT_NAME: ""
   APPDYNAMICS_AGENT_APPLICATION_NAME: "Ad-Capital-SE-Days"
-  APPDYNAMICS_CONTROLLER_HOST_NAME: "technicalonboarding1-2-6hxocrqh.appd-sales.com"
+  APPDYNAMICS_CONTROLLER_HOST_NAME: "technicalonboarding1-2-rhdfu20f.appd-sales.com"
   APPDYNAMICS_CONTROLLER_PORT: "8090"
   APPDYNAMICS_CONTROLLER_SSL_ENABLED: "False"
   APPDYNAMICS_NETVIZ_AGENT_PORT: "3892"
+  ROOKOUT_LABELS: "env:se-days-510"
+  ROOKOUT_LOG_TO_STDERR: "True"
+  ROOKOUT_DEBUG: "1"
+  ROOKOUT_COMMIT: "True"
+  ROOKOUT_TOKEN: "31f6e60630bdc0179699bda70aff35854a430ef4a6ed42a007d6dd80dad0f491"
   RETRY: 10s
   TIMEOUT: 300s
 kind: ConfigMap
